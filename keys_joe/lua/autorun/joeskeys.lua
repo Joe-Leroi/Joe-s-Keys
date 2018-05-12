@@ -2,7 +2,6 @@
 --- Vous pouvez modifier seulement cela ---
 
 LangueS = "fr" --- Auncune autre langue n'est disponible pour le moment ---
-InterfaceV = "Oui" --- Voulez voit voir le statut du véhicule si il l'est verrouillé ou déverrouillé ? Mettre Oui pour activer, Non pour désactiver !
 devvoiture = "Vous avez déverrouillé votre véhicule."
 devporte = "Vous avez déverrouillé votre porte."
 verporte = "Vous avez fermé votre porte clé."
@@ -14,7 +13,7 @@ Auteur = "Joe Leroi & enzoFR60"
 
 
 --- NE PAS TOUCHER, SINON LE SCRIPTS RISQUE DE CREE DES ERREURS ! --
-local VersionJ = "1.0.0"
+local VersionJ = "1.0.1"
 
 hook.Add( "PlayerConnect", "JoeKeysCheckV", function()
 	http.Fetch( "https://raw.githubusercontent.com/Joe-Leroi/Joe-s-Keys/master/Version", function( body, len, headers, code )
