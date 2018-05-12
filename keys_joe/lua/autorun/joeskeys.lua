@@ -23,7 +23,7 @@ hook.Add( "PlayerConnect", "JoeKeysCheckV", function()
 		elseif ( body == "404: Not Found") then
 			print( "[Joe's Keys] La page de la version n'existe pas!")
 		else
-			print( "[Joe's Keys] Vous utilisez une version obsolète de Joe's Keys! (Dernière: " .. body .. ", Actuelle: " .. Version .. ")" )
+			print( "[Joe's Keys] Vous utilisez une version obsolète de Joe's Keys! (Dernière: " .. body .. ", Actuelle: " .. VersionJ .. ")" )
 		end
 	end,
 	function( error )
